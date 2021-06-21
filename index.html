@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_page</title>
+    <link rel="stylesheet" type="text/css" href="content1.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+
+
+
+
+
+    <!-- script for search -->
+    <meta charset="utf-8">
+
+    <!-- Linking the stylesheet -->
+    <link rel="stylesheet" href="searchbar.css">
+
+    <!-- Linking the Jquery script -->
+    <script src="searchbar.JS"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".fa-search").click(function () {
+                $(".icon").toggleClass("active");
+                $("input[type='text']").toggleClass("active");
+            });
+        });
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 1px;
+            padding: 2px;
+            background-image: url("https://wallpapercave.com/wp/wp3784691.jpg");
+            color: rgb(172, 222, 255);
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                R.M.TEA & CO
+            </div>
+
+            <div class="nav-items">
+
+                <!-- The Menu items -->
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Helph desk</a></li>
+                <li><a href="#"> CART</a></li>
+            </div>
+
+            <!-- Defining the search bars -->
+            <input type="text" name="search" placeholder="Search..">
+
+
+            <!--slider-->
+
+
+            <div class="slidercontainer">
+                <div class="showSlide fade">
+                    <img src="sld1.jpg" />
+                    <div class="content">R.M.TEA & CO</div>
+                </div>
+                <div class="showSlide fade">
+                    <img src="sld5.jpg" />
+                    <div class="content">R.M.TEA & COt</div>
+                </div>
+
+                <div class="showSlide fade">
+                    <img src="sld1.jpg" />
+                    <div class="content">R.M.TEA & CO</div>
+                </div>
+
+                <div class="showSlide fade">
+                    <img src="sld5.jpg" />
+                    <div class="content">R.M.TEA & CO</div>
+                </div>
+
+                <div class="showSlide fade">
+                    <img src="sld1.jpg" />
+                    <div class="content">R.M.TEA & CO</div>
+                </div>
+                <!-- Navigation arrows -->
+                <a class="left" onclick="nextSlide(-1)">❮</a>
+                <a class="right" onclick="nextSlide(1)">❯</a>
+            </div>
+
+
+
+
+            <!--main cointain-->
+            <div class="main_content">
+
+
+                <div class="container1">
+                    <div class="card1">
+                        <div class="card-title1">
+                            <div class="card-body">
+                                <h2>Darjeeling Tea</h2>
+                                <p>is a tea made from Camellia sinensis var.
+                                    sinensis that is grown and processed in the Darjeeling or Kalimpong Districts in
+                                    West Bengal, India.
+                                </p>
+
+                                <a
+                                    href="https://www.google.co.in/search?q=R.M.%20TEA&ludocid=3457506556126134803&lsig=AB86z5WV-UPokG-E-1-Qlz--V71-&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALeKk02Mn_Qe8PGkv6zJSyQS1aONN5eOEQ:1624287126582&rflfq=1&num=10&rldimm=3457506556126134803&lqi=CghSLk0uIFRFQUiKwInA-a-AgAhaEBAAEAEYABgBIgZybSB0ZWGSAQ9zaG9wcGluZ19jZW50ZXKqARgKCC9tLzA3Y2x4EAEqCiIGcm0gdGVhKAA&ved=2ahUKEwjipsWJ_ajxAhVTxTgGHXMFBwgQvS4wAHoECAgQMw&rlst=f">
+                                    <button id="btn1">
+                                        more products
+                                    </button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container2">
+                    <div class="card1">
+                        <div class="card-title1">
+                            <div class="card-body">
+                                <h2>CTC Tea</h2>
+                                <p>(Crush, tear, curl) is a method of processing black tea in which the leaves are
+                                    passed through a series of cylindrical
+                                    rollers with hundreds of sharp teeth that crush, tear, and curl the tea into small,
+                                    hard pellets.
+                                </p>
+                                <a
+                                    href="https://www.google.co.in/search?q=R.M.%20TEA&ludocid=3457506556126134803&lsig=AB86z5WV-UPokG-E-1-Qlz--V71-&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALeKk02Mn_Qe8PGkv6zJSyQS1aONN5eOEQ:1624287126582&rflfq=1&num=10&rldimm=3457506556126134803&lqi=CghSLk0uIFRFQUiKwInA-a-AgAhaEBAAEAEYABgBIgZybSB0ZWGSAQ9zaG9wcGluZ19jZW50ZXKqARgKCC9tLzA3Y2x4EAEqCiIGcm0gdGVhKAA&ved=2ahUKEwjipsWJ_ajxAhVTxTgGHXMFBwgQvS4wAHoECAgQMw&rlst=f">
+                                    <button id="btn1">
+                                        more products
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container3">
+                    <div class="card1">
+                        <div class="card-title1">
+                            <div class="card-body">
+                                <h2>GREEN/ORGANIC Tea</h2>
+                                <p>is a type of tea that is made from Camellia sinensis leaves and buds that have not
+                                    undergone
+                                    the same withering and oxidation process used to make oolong teas and black teas.
+                                </p>
+                                <a
+                                    href="https://www.google.co.in/search?q=R.M.%20TEA&ludocid=3457506556126134803&lsig=AB86z5WV-UPokG-E-1-Qlz--V71-&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALeKk02Mn_Qe8PGkv6zJSyQS1aONN5eOEQ:1624287126582&rflfq=1&num=10&rldimm=3457506556126134803&lqi=CghSLk0uIFRFQUiKwInA-a-AgAhaEBAAEAEYABgBIgZybSB0ZWGSAQ9zaG9wcGluZ19jZW50ZXKqARgKCC9tLzA3Y2x4EAEqCiIGcm0gdGVhKAA&ved=2ahUKEwjipsWJ_ajxAhVTxTgGHXMFBwgQvS4wAHoECAgQMw&rlst=f">
+                                    <button id="btn1">
+                                        more products
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container4">
+                    <div class="card1">
+                        <div class="card-title1">
+                            <div class="card-body">
+                                <h2>Darjeeling Tea</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Amet perferendis sequi sunt fugit architecto, pariatur illo dignissimos
+                                    quasi dicta at, dolore placeat incidunt eligendi alias, eum ex deleniti harum
+                                    laborum?
+                                </p>
+                                <a
+                                href="https://www.google.co.in/search?q=R.M.%20TEA&ludocid=3457506556126134803&lsig=AB86z5WV-UPokG-E-1-Qlz--V71-&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALeKk02Mn_Qe8PGkv6zJSyQS1aONN5eOEQ:1624287126582&rflfq=1&num=10&rldimm=3457506556126134803&lqi=CghSLk0uIFRFQUiKwInA-a-AgAhaEBAAEAEYABgBIgZybSB0ZWGSAQ9zaG9wcGluZ19jZW50ZXKqARgKCC9tLzA3Y2x4EAEqCiIGcm0gdGVhKAA&ved=2ahUKEwjipsWJ_ajxAhVTxTgGHXMFBwgQvS4wAHoECAgQMw&rlst=f">
+                                <button id="btn1">
+                                    more products
+                                </button>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+            <!--footer-->
+            <footer>
+                <div class="main_footer">
+
+                    <div class="footer_wrapper">
+
+                        <div class="first_section">
+                            <h1>R.M.TEA & CO</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, suscipit ducimus.
+                                Quas
+                                numquam
+                                fuga qui ad, laboriosam minus,
+
+                            </p>
+                        </div>
+                        <div class="second_section">
+                            <h1>
+                                social media links
+                            </h1>
+                            <ul>
+                                <li><a href="https://twitter.com/Arupkum84814898?s=08">twter</a></li> <br />
+                                <li><a href="https://t.me/TBMXM46_youtuber">teligram</a></li> <br />
+                                <li><a href="https://www.youtube.com/channel/UC7JDSAfCXmhx_nkAys8fsmg">youtube</a>
+                                </li>
+                                <br />
+                                <li><a href="https://www.facebook.com/profile.php?id=100050066944943">Facrbook</a>
+                                </li>
+                                <br />
+                                <li><a href="https://www.instagram.com/arup_kumar_kxtr/">instagram</a></li> <br />
+
+                            </ul>
+                        </div>
+
+                        <div class="third_section">
+                            <h2> Contuct Us</h2>
+                            Adress:
+                            [ 148, nathpara Brahmapur ,
+                            Buttala Bazar kolkata 700096]
+                            <br\>
+                                CALL:8697315229
+                                <br\>
+                                    Email:kxtr96@gmail.com
+
+
+                        </div>
+
+                        <div class="forth_section">
+                            <h3>
+                                copyright
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, suscipit ducimus.
+                                Quas
+                                numquam
+                                fuga qui ad, laboriosam minus,
+
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+
+</body>
+
+<!--javascript for slidder-->
+<script type="text/javascript">
+    var slide_index = 1;
+    displaySlides(slide_index);
+    function nextSlide(n) {
+        displaySlides(slide_index += n);
+    }
+    function currentSlide(n) {
+        displaySlides(slide_index = n);
+    }
+    function displaySlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("showSlide");
+        if (n > slides.length) { slide_index = 1 }
+        if (n < 1) { slide_index = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slide_index - 1].style.display = "block";
+    }
+</script>
+
+</html>
